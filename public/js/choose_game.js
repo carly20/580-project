@@ -13,7 +13,7 @@ $(window).keyup(function(e){
         if (selected == true && e.keyCode== 32){
             if (index%3==0){
                 // jump to clap it
-                location.href = '/clapit';
+                location.href = '/clap_it';
             }else if (index%3==1) {
                 //jump to Forbidden Forest
                 location.href = '/forbiddenForest';

@@ -25,9 +25,11 @@ app.get('/multiplayer', (req, res) => {
     res.sendFile(path.join(__dirname, 'multiplayer_game/home.html'))
 })
 
-app.get('/clapit', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'))
+app.get('/clap_it', (req, res) => {
+    res.sendFile(path.join(__dirname, 'clap_it/Clap-It.html'))
 })
+
+
 //Takoda server side game code
 
 let io = socketIO(server);
